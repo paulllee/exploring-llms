@@ -7,3 +7,6 @@
 # python related
 __pycache__
 .env
+
+# other
+.devcontainer
