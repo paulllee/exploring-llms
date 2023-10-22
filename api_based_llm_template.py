@@ -2,6 +2,9 @@
 # Then you can run the code to ask questions and get responses from the LLM.
 # Type 'exit' to exit out of conversation.
 
+# Generate API key from - https://platform.openai.com/account/api-keys 
+#     --> Set openai.openai_key
+
 # IMPORTANT --- DO NOT UPLOAD YOUR API KEY TO GITHUB IF YOU ARE USING A PAID LLM API KEY (ex: ChatGPT). ---
 
 import openai
