@@ -1,0 +1,2 @@
+# install replicate client
+!pip install replicate
