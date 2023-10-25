@@ -48,4 +48,3 @@ if __name__ == "__main__":
         response = ask_chatgpt(user_message)
         if response:
             print("ChatGPT:", response)
-
