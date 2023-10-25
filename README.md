@@ -11,3 +11,7 @@ maybe we can consolidate and group by *ideas* in the future...
 supporting python 3.10+
 
 while in this project directory, please install all the requirements via `pip install -r requirements.txt`
+
+# contribution
+
+please add to `requirements.txt` if you installed a new external python library
