@@ -1,4 +1,5 @@
 python-dotenv
 langchain
-openai
-huggingface_hub
+
+# langchain doesn't support openai v1+ yet
+openai==v0.28.1
