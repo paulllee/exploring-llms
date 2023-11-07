@@ -1,5 +1,5 @@
-python-dotenv
 langchain
-
-# langchain doesn't support openai v1+ yet
-openai==v0.28.1
+openai==v0.28.1  # langchain doesn't support openai v1+ yet
+pypdf
+python-dotenv
+streamlit
