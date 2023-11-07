@@ -13,6 +13,12 @@ from PyPDF2 import PdfReader
 from dotenv import load_dotenv
 
 # Your OpenAI API key
+import os
+from PyPDF2 import PdfReader
+from dotenv import load_dotenv
+
+load_dotenv()  # Load environment variables from .env file
+
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def extract_text_from_pdf(pdf_path):
