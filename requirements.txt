@@ -1,4 +1,7 @@
-python-dotenv
 langchain
-openai
-huggingface_hub
+openai==v0.28.1  # langchain doesn't support openai v1+ yet
+pypdf
+python-dotenv
+streamlit
+tiktoken
+faiss-cpu
