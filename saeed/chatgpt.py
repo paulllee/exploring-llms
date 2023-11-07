@@ -10,9 +10,10 @@
 import openai
 import os
 from PyPDF2 import PdfReader
+from dotenv import load_dotenv
 
 # Your OpenAI API key
-openai.api_key = "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"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def extract_text_from_pdf(pdf_path):
     try:
